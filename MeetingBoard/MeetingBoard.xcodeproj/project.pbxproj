@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9832DF171C2A8F2F00EECF8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832DF161C2A8F2F00EECF8D /* main.m */; };
+		9832DF1A1C2A8F2F00EECF8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832DF191C2A8F2F00EECF8D /* AppDelegate.m */; };
+		9832DF1D1C2A8F2F00EECF8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832DF1C1C2A8F2F00EECF8D /* ViewController.m */; };
+		9832DF201C2A8F2F00EECF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9832DF1E1C2A8F2F00EECF8D /* Main.storyboard */; };
+		9832DF221C2A8F3000EECF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9832DF211C2A8F3000EECF8D /* Assets.xcassets */; };
+		9832DF251C2A8F3000EECF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9832DF231C2A8F3000EECF8D /* LaunchScreen.storyboard */; };
+		9832DF301C2A8F3000EECF8D /* MeetingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832DF2F1C2A8F3000EECF8D /* MeetingBoardTests.m */; };
+		9832DF3B1C2A8F3000EECF8D /* MeetingBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9832DF3A1C2A8F3000EECF8D /* MeetingBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9832DF2C1C2A8F3000EECF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9832DF0A1C2A8F2F00EECF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9832DF111C2A8F2F00EECF8D;
+			remoteInfo = MeetingBoard;
+		};
+		9832DF371C2A8F3000EECF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9832DF0A1C2A8F2F00EECF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9832DF111C2A8F2F00EECF8D;
+			remoteInfo = MeetingBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9832DF121C2A8F2F00EECF8D /* MeetingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9832DF161C2A8F2F00EECF8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9832DF181C2A8F2F00EECF8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9832DF191C2A8F2F00EECF8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9832DF1B1C2A8F2F00EECF8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9832DF1C1C2A8F2F00EECF8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9832DF1F1C2A8F2F00EECF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9832DF211C2A8F3000EECF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9832DF241C2A8F3000EECF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9832DF261C2A8F3000EECF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9832DF2B1C2A8F3000EECF8D /* MeetingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9832DF2F1C2A8F3000EECF8D /* MeetingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingBoardTests.m; sourceTree = "<group>"; };
+		9832DF311C2A8F3000EECF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9832DF361C2A8F3000EECF8D /* MeetingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9832DF3A1C2A8F3000EECF8D /* MeetingBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetingBoardUITests.m; sourceTree = "<group>"; };
+		9832DF3C1C2A8F3000EECF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9832DF0F1C2A8F2F00EECF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832DF281C2A8F3000EECF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832DF331C2A8F3000EECF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9832DF091C2A8F2F00EECF8D = {
+			isa = PBXGroup;
+			children = (
+				9832DF141C2A8F2F00EECF8D /* MeetingBoard */,
+				9832DF2E1C2A8F3000EECF8D /* MeetingBoardTests */,
+				9832DF391C2A8F3000EECF8D /* MeetingBoardUITests */,
+				9832DF131C2A8F2F00EECF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9832DF131C2A8F2F00EECF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9832DF121C2A8F2F00EECF8D /* MeetingBoard.app */,
+				9832DF2B1C2A8F3000EECF8D /* MeetingBoardTests.xctest */,
+				9832DF361C2A8F3000EECF8D /* MeetingBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9832DF141C2A8F2F00EECF8D /* MeetingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9832DF181C2A8F2F00EECF8D /* AppDelegate.h */,
+				9832DF191C2A8F2F00EECF8D /* AppDelegate.m */,
+				9832DF1B1C2A8F2F00EECF8D /* ViewController.h */,
+				9832DF1C1C2A8F2F00EECF8D /* ViewController.m */,
+				9832DF1E1C2A8F2F00EECF8D /* Main.storyboard */,
+				9832DF211C2A8F3000EECF8D /* Assets.xcassets */,
+				9832DF231C2A8F3000EECF8D /* LaunchScreen.storyboard */,
+				9832DF261C2A8F3000EECF8D /* Info.plist */,
+				9832DF151C2A8F2F00EECF8D /* Supporting Files */,
+			);
+			path = MeetingBoard;
+			sourceTree = "<group>";
+		};
+		9832DF151C2A8F2F00EECF8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9832DF161C2A8F2F00EECF8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9832DF2E1C2A8F3000EECF8D /* MeetingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				9832DF2F1C2A8F3000EECF8D /* MeetingBoardTests.m */,
+				9832DF311C2A8F3000EECF8D /* Info.plist */,
+			);
+			path = MeetingBoardTests;
+			sourceTree = "<group>";
+		};
+		9832DF391C2A8F3000EECF8D /* MeetingBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9832DF3A1C2A8F3000EECF8D /* MeetingBoardUITests.m */,
+				9832DF3C1C2A8F3000EECF8D /* Info.plist */,
+			);
+			path = MeetingBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9832DF111C2A8F2F00EECF8D /* MeetingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9832DF3F1C2A8F3000EECF8D /* Build configuration list for PBXNativeTarget "MeetingBoard" */;
+			buildPhases = (
+				9832DF0E1C2A8F2F00EECF8D /* Sources */,
+				9832DF0F1C2A8F2F00EECF8D /* Frameworks */,
+				9832DF101C2A8F2F00EECF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingBoard;
+			productName = MeetingBoard;
+			productReference = 9832DF121C2A8F2F00EECF8D /* MeetingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9832DF2A1C2A8F3000EECF8D /* MeetingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9832DF421C2A8F3000EECF8D /* Build configuration list for PBXNativeTarget "MeetingBoardTests" */;
+			buildPhases = (
+				9832DF271C2A8F3000EECF8D /* Sources */,
+				9832DF281C2A8F3000EECF8D /* Frameworks */,
+				9832DF291C2A8F3000EECF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9832DF2D1C2A8F3000EECF8D /* PBXTargetDependency */,
+			);
+			name = MeetingBoardTests;
+			productName = MeetingBoardTests;
+			productReference = 9832DF2B1C2A8F3000EECF8D /* MeetingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9832DF351C2A8F3000EECF8D /* MeetingBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9832DF451C2A8F3000EECF8D /* Build configuration list for PBXNativeTarget "MeetingBoardUITests" */;
+			buildPhases = (
+				9832DF321C2A8F3000EECF8D /* Sources */,
+				9832DF331C2A8F3000EECF8D /* Frameworks */,
+				9832DF341C2A8F3000EECF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9832DF381C2A8F3000EECF8D /* PBXTargetDependency */,
+			);
+			name = MeetingBoardUITests;
+			productName = MeetingBoardUITests;
+			productReference = 9832DF361C2A8F3000EECF8D /* MeetingBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9832DF0A1C2A8F2F00EECF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "寺内 信夫";
+				TargetAttributes = {
+					9832DF111C2A8F2F00EECF8D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9832DF2A1C2A8F3000EECF8D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9832DF111C2A8F2F00EECF8D;
+					};
+					9832DF351C2A8F3000EECF8D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9832DF111C2A8F2F00EECF8D;
+					};
+				};
+			};
+			buildConfigurationList = 9832DF0D1C2A8F2F00EECF8D /* Build configuration list for PBXProject "MeetingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9832DF091C2A8F2F00EECF8D;
+			productRefGroup = 9832DF131C2A8F2F00EECF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9832DF111C2A8F2F00EECF8D /* MeetingBoard */,
+				9832DF2A1C2A8F3000EECF8D /* MeetingBoardTests */,
+				9832DF351C2A8F3000EECF8D /* MeetingBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9832DF101C2A8F2F00EECF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9832DF251C2A8F3000EECF8D /* LaunchScreen.storyboard in Resources */,
+				9832DF221C2A8F3000EECF8D /* Assets.xcassets in Resources */,
+				9832DF201C2A8F2F00EECF8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832DF291C2A8F3000EECF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832DF341C2A8F3000EECF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9832DF0E1C2A8F2F00EECF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9832DF1D1C2A8F2F00EECF8D /* ViewController.m in Sources */,
+				9832DF1A1C2A8F2F00EECF8D /* AppDelegate.m in Sources */,
+				9832DF171C2A8F2F00EECF8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832DF271C2A8F3000EECF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9832DF301C2A8F3000EECF8D /* MeetingBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9832DF321C2A8F3000EECF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9832DF3B1C2A8F3000EECF8D /* MeetingBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9832DF2D1C2A8F3000EECF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9832DF111C2A8F2F00EECF8D /* MeetingBoard */;
+			targetProxy = 9832DF2C1C2A8F3000EECF8D /* PBXContainerItemProxy */;
+		};
+		9832DF381C2A8F3000EECF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9832DF111C2A8F2F00EECF8D /* MeetingBoard */;
+			targetProxy = 9832DF371C2A8F3000EECF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9832DF1E1C2A8F2F00EECF8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9832DF1F1C2A8F2F00EECF8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9832DF231C2A8F3000EECF8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9832DF241C2A8F3000EECF8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9832DF3D1C2A8F3000EECF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9832DF3E1C2A8F3000EECF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9832DF401C2A8F3000EECF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MeetingBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9832DF411C2A8F3000EECF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MeetingBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9832DF431C2A8F3000EECF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MeetingBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingBoard.app/MeetingBoard";
+			};
+			name = Debug;
+		};
+		9832DF441C2A8F3000EECF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeetingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MeetingBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingBoard.app/MeetingBoard";
+			};
+			name = Release;
+		};
+		9832DF461C2A8F3000EECF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeetingBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MeetingBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeetingBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9832DF471C2A8F3000EECF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeetingBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tera.MeetingBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeetingBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9832DF0D1C2A8F2F00EECF8D /* Build configuration list for PBXProject "MeetingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9832DF3D1C2A8F3000EECF8D /* Debug */,
+				9832DF3E1C2A8F3000EECF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9832DF3F1C2A8F3000EECF8D /* Build configuration list for PBXNativeTarget "MeetingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9832DF401C2A8F3000EECF8D /* Debug */,
+				9832DF411C2A8F3000EECF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9832DF421C2A8F3000EECF8D /* Build configuration list for PBXNativeTarget "MeetingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9832DF431C2A8F3000EECF8D /* Debug */,
+				9832DF441C2A8F3000EECF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9832DF451C2A8F3000EECF8D /* Build configuration list for PBXNativeTarget "MeetingBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9832DF461C2A8F3000EECF8D /* Debug */,
+				9832DF471C2A8F3000EECF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9832DF0A1C2A8F2F00EECF8D /* Project object */;
+}
